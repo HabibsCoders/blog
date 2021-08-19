@@ -45,6 +45,10 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'cloudinary',
     
+    'templates',
+    
+    
+    
     
     #my apps
     'myapp',
@@ -53,6 +57,8 @@ INSTALLED_APPS = [
     'carousel',
     'storages',
     'taggit'
+    
+    
 ]
 
 INSTALLED_APPS += ('django_summernote', )
